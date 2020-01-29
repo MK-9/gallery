@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "792807264003",
+    "firebase_url": "https://imagecapture-e20a0.firebaseio.com",
+    "project_id": "imagecapture-e20a0",
+    "storage_bucket": "imagecapture-e20a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792807264003:android:0e52519dbf11ba36222336",
+        "android_client_info": {
+          "package_name": "com.example.imagecapture"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792807264003-4snmq1p074oqh33tqbjam46arn9u99gn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.imagecapture",
+            "certificate_hash": "124034df69a9d215c3295f5a311b502818cfa7c9"
+          }
+        },
+        {
+          "client_id": "792807264003-1a24pdaspmv8420rvnpd0qtuvbqs7s5s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_i4iTg5NKHjaqx-7XDSlFEcoxLxdNlXU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792807264003-1a24pdaspmv8420rvnpd0qtuvbqs7s5s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
