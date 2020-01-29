@@ -19,14 +19,3 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
-
-#####################################################
-###################CrashLytics#######################
-#####################################################
-# Keep file names and line numbers.
--keepattributes SourceFile,LineNumberTable
-#Optional: Keep custom exceptions.
--keep public class * extends java.lang.Exception
--keep class com.google.firebase.crashlytics.** { *; }
--dontwarn com.google.firebase.crashlytics.**
-
