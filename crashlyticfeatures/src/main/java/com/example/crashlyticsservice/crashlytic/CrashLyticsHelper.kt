@@ -24,11 +24,15 @@ object CrashLyticsHelper : CrashLyticsCapability {
     }
 
     override fun setPhone(phone: String) {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        if (::instance.isInitialized) {
+            instance.setCustomKey("phone", phone)
+        }
     }
 
     override fun setEmail(email: String) {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        if (::instance.isInitialized) {
+            instance.setCustomKey("email", email)
+        }
     }
 
     override fun setUserId(userId: String) {
@@ -42,6 +46,5 @@ object CrashLyticsHelper : CrashLyticsCapability {
             throw RuntimeException("Test Crash")
         }
     }
-
 
 }
