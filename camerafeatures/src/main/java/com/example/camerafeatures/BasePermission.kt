@@ -69,9 +69,10 @@ abstract class BasePermission : PermissionCapability {
             1122 -> {
                 if (grantResults.isNotEmpty()) {
                     if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                        setPermissionIsDenied(false)
                         permissionGranted()
                     } else if (grantResults[0] == PackageManager.PERMISSION_DENIED) {
-
+                        setPermissionIsDenied(true)
                     }
                 }
             }

@@ -10,8 +10,6 @@ interface PermissionCapability {
 
     fun checkPermission(): Boolean
 
-    fun isPermissionDeniedBefore(): Boolean
-
     fun requestPermission()
 
     fun permissionGranted()
@@ -25,4 +23,8 @@ interface PermissionCapability {
         permissions: Array<out String>,
         grantResults: IntArray
     )
+
+    fun isPermissionDeniedBefore(): Boolean
+
+    fun setPermissionIsDenied(isDenied: Boolean)
 }
