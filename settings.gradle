@@ -1,2 +1,2 @@
-include ':app', ':crashlyticfeatures', ':camerafeatures'
+include ':app', ':firebasefeatures', ':camerafeatures'
 rootProject.name='ImageCapture'
