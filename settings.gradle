@@ -1,2 +1,2 @@
-include ':app', ':crashlyticfeatures'
+include ':app', ':crashlyticfeatures', ':camerafeatures'
 rootProject.name='ImageCapture'
