@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.Toast
 import com.example.camerafeatures.CameraHelper
+import com.example.crashlyticsservice.analytics.AnalyticsHelper
 import com.example.imagecapture.R
 
 class MainActivity : AppCompatActivity() {
@@ -21,6 +22,7 @@ class MainActivity : AppCompatActivity() {
         addContentView(button, ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 100))
         button.setOnClickListener {
             CameraHelper.init(this, Manifest.permission.CAMERA, 1122)
+            AnalyticsHelper.logEvent("1", "mohammad", "image")
         }
     }
 
